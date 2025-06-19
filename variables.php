@@ -10,7 +10,7 @@ echo "Имя: $nameStudent"; //Интерполяция " "
 echo "Возраст: " . $ageStudent;
 echo "Средний балл: " . $averageStudent;
 echo '----------------------------------------------------------------------------------- <br>';
-
+echo str_repeat('-', 50) . '<br>';
 echo 'Создать переменные для описания автомобиля: <br>';
 $carBrand = 'Nissan <br>';
 $yearOfRelease = '2023 <br>';
